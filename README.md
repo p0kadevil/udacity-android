@@ -1,6 +1,5 @@
-# udacity-android
-Udacity Android Nanodegree
+# udacity-project0
+Udacity Android Nanodegree Project 0
 
-This Repository is for the Udacity Android Nanodegree.
-Here, I will upload all my projects which I have to create
-to get my Nanodegree.
+This Repository is used for the first project of the Udacity Android Nanodegree course.
+This project is related to "My App Portfolio".
