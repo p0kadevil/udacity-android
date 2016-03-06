@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.my_app_portfolio.p0kadevil.myappportfolio.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_my_nanodegree_apps"
+                style="@style/textViewHeadline"
+                android:text="@string/my_nanodegree_apps"/>
+
+            <Button
+                android:id="@+id/btn_project1"
+                style="@style/buttonProject"
+                android:layout_marginTop="@dimen/top_project_button_margin_top"
+                android:text="@string/project1_title"
+                android:onClick="projectButtonPressed"/>
+
+            <Button
+                android:id="@+id/btn_project2"
+                style="@style/buttonProject"
+                android:text="@string/project2_title"
+                android:onClick="projectButtonPressed"/>
+
+            <Button
+                android:id="@+id/btn_project3"
+                style="@style/buttonProject"
+                android:text="@string/project3_title"
+                android:onClick="projectButtonPressed"/>
+
+            <Button
+                android:id="@+id/btn_project4"
+                style="@style/buttonProject"
+                android:text="@string/project4_title"
+                android:onClick="projectButtonPressed"/>
+
+            <Button
+                android:id="@+id/btn_project5"
+                style="@style/buttonProject"
+                android:text="@string/project5_title"
+                android:onClick="projectButtonPressed"/>
+
+            <Button
+                android:id="@+id/btn_myproject"
+                style="@style/buttonMyProject"
+                android:text="@string/my_project_title"
+                android:onClick="projectButtonPressed"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

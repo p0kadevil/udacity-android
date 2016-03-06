@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mein App Portfolio</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="capstone">Abschluss</string>
+    <string name="my_nanodegree_apps">Meine Nanodegree Apps!</string>
+    <string name="my_project_title">Höhepunkt: Meine eigene App</string>
+    <string name="project_button_toast_text">Dieser Button wird meine %@ starten!</string>
+</resources>
